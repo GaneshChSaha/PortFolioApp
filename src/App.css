@@ -1,38 +1,77 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sidebar{
+  width: 25%;
+  position: fixed;
+  left: 0;
+  height: 100%;
+  border-right: 3px solid #e6ecf0;
+}
+
+
+.image img{
+  height: 150px;
+  width: 150px;
+  margin-top: 25px;
+  margin-left: 50px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header{
   text-align: center;
+  font-size: 16x;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.email ul{
+  padding-left: 35px;
+  padding-top: 10px;
+   
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.phone{
+  padding-left: 85px ;
+  padding-top: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.heading {
+  text-align: center;
+  padding-top: 10px;
+}
+ul{
+  list-style-type: none;
 }
 
-.App-link {
-  color: #61dafb;
+.heading_one {
+  padding: 9px;
+  color: #000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo{
+  padding-top: 8px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
